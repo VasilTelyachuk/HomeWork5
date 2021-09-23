@@ -11,12 +11,14 @@ body {
   clear: both;
 }
 .wrapper {
-  width: 1110px;
+  width: 1600px;
   margin: 0px auto;
 }
 .page-header {
-  padding-top: 35px;
-  margin-bottom: 94px;
+  width: 1110px;
+  padding-top: 38px;
+  margin: 0px auto;
+  margin-bottom: 33px;
 }
 .logotipe {
   float: left;
