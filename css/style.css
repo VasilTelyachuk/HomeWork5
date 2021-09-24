@@ -3,7 +3,7 @@ body {
   line-height: 26px;
   font-weight: normal;
   color: #555252;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto",sans-serif;
 }
 .clearfix::after {
   display: table;
@@ -13,6 +13,7 @@ body {
 .wrapper {
   width: 1600px;
   margin: 0px auto;
+  background-color: #e9f0fd;
 }
 .page-header {
   width: 1110px;
@@ -57,27 +58,59 @@ body {
 .nav-menu-link:hover {
   color: #1abc9c;
 }
-
-/* MAIN CONTENT */
-.slaider {
-  position: relative;
+.one {
+position: relative;
+margin-bottom: 94px;
+}
+.slaider-img {
+  float: left;
+  }
+.slaider-option {
+  width: 1110px;
+  margin: 0px auto;
+  position: absolute;
+  top: 224px;
+  left: 245px;
 }
 .Left{
-  display: inline-block;
+  display: block;
+  float: left;
   border: none;
-  width: 104px;
-  height: 104px;
+  width: 103px;
+  height: 103px;
   background-color: #1abc9c;
   padding: 0px;
+  opacity: 65%;
   background-image: url(../img/L.png);
   background-repeat: no-repeat;
   background-position: center;
 }
+.head-conteiner {
+  float: left;
+  margin: 0px auto;
+  width: 904px;
+  color: #ffffff;
+}
+.head-slaider{
+  margin: 0px 0px 38px 0px;
+  font-size: 60px;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  text-align: center;
+  }
+figcaption {
+  text-align: left;
+  font-size: 24px;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  padding-left: 72px;
+}
 .Right{
-  display: inline-block;
+  display: block;
+  float: right;
   border: none;
-  width: 104px;
-  height: 104px;
+  width: 103px;
+  height: 103px;
   background-color: #1abc9c;
   padding: 0px;
   background-image: url(../img/R.png);
@@ -89,22 +122,19 @@ width: 1110px;
 margin: 0px auto;
 position: absolute;
 }
-
-
-
-
 .two {
   width: 1110px;
   margin: 0px auto;
-}
-.Head-second {
+  margin-bottom: 95px;
+   }
+.head-second {
   text-align: center;
   font-size: 48px;
   line-height: 72px;
   text-transform: uppercase;
   margin: 0px 0px 128px 0px;
 }
-.Head-second::after {
+.head-second::after {
   display: block;
   content: "";
   width: 164px;
@@ -138,6 +168,7 @@ position: absolute;
   text-decoration: none;
   color: #ffffff;
   background-color: #323232;
+  font-weight: 900;
 }
 .price {
   float: right;
@@ -152,6 +183,21 @@ position: absolute;
 .main-menu-item:hover .price {
     content: "";
     background-color: #7fd9c7;
+  }
+  .main-footer {
+    padding: 35px 0px 31px 0px;
+    background-color: #323232;
+  }
+  address {
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  .footer-span {
+    color: #1abc9c;
   }
 /* .button {
   width: 160px;
@@ -175,3 +221,4 @@ position: absolute;
      clip-path: inset(100%);
      clip: rect(0 0 0 0);
      overflow: hidden;
+     }
