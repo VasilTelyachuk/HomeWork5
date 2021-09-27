@@ -13,7 +13,7 @@ body {
 .wrapper {
   width: 1600px;
   margin: 0px auto;
-  background-color: #e9f0fd;
+  /* background-color: #e9f0fd; */
 }
 .page-header {
   width: 1110px;
@@ -61,9 +61,11 @@ body {
 .one {
 position: relative;
 margin-bottom: 94px;
+background-color: #323232;
 }
 .slaider-img {
   float: left;
+  opacity: 52%;
   }
 .slaider-option {
   width: 1110px;
@@ -84,6 +86,7 @@ margin-bottom: 94px;
   background-image: url(../img/L.png);
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
 .head-conteiner {
   float: left;
@@ -116,6 +119,7 @@ figcaption {
   background-image: url(../img/R.png);
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
 .options {
 width: 1110px;
@@ -145,25 +149,29 @@ position: absolute;
 .main-menu{
   margin: 0px auto;
   padding: 0px;
-  box-sizing: border-box;
-}
+  }
 .main-menu-item {
   float: left;
   list-style: none;
   line-height: 32px;
   text-transform: uppercase;
+  position: relative;
+  
 }
 .main-menu-item:not(:nth-child(4n)) {
   margin-right: 30px;
  }
 .card-img {
   float: left;
-    }
+      }
 .main-menu-link {
   float: left;
   clear: both;
-  width: 255px;
-  /* padding-left: 14px; */
+  display: block;
+  position: absolute;
+  top: 290px;
+  width: 241px;
+  padding-left: 14px;
   margin: 0px;
   text-decoration: none;
   color: #ffffff;
@@ -184,6 +192,75 @@ position: absolute;
     content: "";
     background-color: #7fd9c7;
   }
+  .main-button-like {
+    display: block;
+    float: left;
+    /* border: none; */
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    opacity: 55%;
+    background-image: url(../img/Hart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000000;
+    cursor: pointer;
+  }
+  .main-button-reset {
+    display: block;
+    float: left;
+    border: none;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    background-image: url(../img/Arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #1abc9c;
+    cursor: pointer;
+  }
+  .main-button-time {
+    display: block;
+    float: left;
+    /* border: none; */
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    opacity: 55%;
+    background-image: url(../img/Watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000000;
+    cursor: pointer;
+  }
+  .main-button-sell {
+    display: block;
+    float: left;
+    clear: both;
+    text-align: right;
+    /* border: 2px white; */
+    width: 166px;
+    height: 50px;
+    padding: 0px;
+    background-image: url(../img/Sell.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #323232;
+    cursor: pointer;
+  }
+  .ccc {
+    width: 235px;
+    height: 261px;
+    background-color: #000000;
+    opacity: 55%;
+  }
+  .main-button-like {
+    margin-right: 8px;
+    margin-bottom: 7px;
+   }
+  .main-button-reset {
+    margin-right: 8px;
+   }
   .main-footer {
     padding: 35px 0px 31px 0px;
     background-color: #323232;
@@ -199,17 +276,6 @@ position: absolute;
   .footer-span {
     color: #1abc9c;
   }
-/* .button {
-  width: 160px;
-  height: 51px;
-  border-style: none;
-  border-radius: 3px;
-  background-color: #1abc9c;
-  font-size: 16px;
-  font-family: "Open Sans" sans-serif;
-  color: #ffffff;
-  padding: 0px;
-  } */
   .visually-hidden:not(:focus):not(:active) {
      position: absolute;
      width: 1px;
