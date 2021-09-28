@@ -168,8 +168,9 @@ position: absolute;
   float: left;
   clear: both;
   display: block;
+  height: 40px;
   position: absolute;
-  top: 290px;
+  top: 282px;
   width: 241px;
   padding-left: 14px;
   margin: 0px;
@@ -182,6 +183,7 @@ position: absolute;
   float: right;
   text-align: center;
   width: 54px;
+  height: 40px;
   background-color: #8c8c8c;
 }
 .main-menu-item:hover .main-menu-link {
@@ -193,9 +195,10 @@ position: absolute;
     background-color: #7fd9c7;
   }
   .main-button-like {
-    display: block;
     float: left;
-    /* border: none; */
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
     width: 50px;
     height: 50px;
     padding: 0px;
@@ -203,26 +206,29 @@ position: absolute;
     background-image: url(../img/Hart.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #000000;
+    /* background-color: #000000; */
     cursor: pointer;
   }
   .main-button-reset {
-    display: block;
     float: left;
-    border: none;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;  
+    opacity: 55%;
     width: 50px;
     height: 50px;
     padding: 0px;
     background-image: url(../img/Arrow.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #1abc9c;
+    /* background-color: #000000; */
     cursor: pointer;
   }
   .main-button-time {
-    display: block;
     float: left;
-    /* border: none; */
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
     width: 50px;
     height: 50px;
     padding: 0px;
@@ -230,30 +236,42 @@ position: absolute;
     background-image: url(../img/Watch.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #000000;
+    /* background-color: #000000; */
     cursor: pointer;
   }
   .main-button-sell {
-    display: block;
     float: left;
     clear: both;
-    text-align: right;
-    /* border: 2px white; */
+    text-align: center;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    background-color: #323232;
+    border-style: solid;
     width: 166px;
     height: 50px;
     padding: 0px;
     background-image: url(../img/Sell.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #323232;
     cursor: pointer;
   }
-  .ccc {
+  .key-block-shadow {
+    /* display: none; */
     width: 235px;
     height: 261px;
     background-color: #000000;
     opacity: 55%;
-  }
+    margin-right: 0px;
+    border-width: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    position: relative;
+          }
+  .key-block {
+    position: absolute;
+    left: 45px;
+    top: 80px;
+        }
   .main-button-like {
     margin-right: 8px;
     margin-bottom: 7px;
