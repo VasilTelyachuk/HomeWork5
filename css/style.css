@@ -3,7 +3,7 @@ body {
   line-height: 26px;
   font-weight: normal;
   color: #555252;
-  font-family: "Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .clearfix::after {
   display: table;
@@ -59,10 +59,11 @@ body {
   color: #1abc9c;
 }
 .one {
-position: relative;
-margin-bottom: 94px;
-background-color: #323232;
-}
+  position: relative;
+  }
+.slaider-image {
+  background-color: #000002;
+ }
 .slaider-img {
   float: left;
   opacity: 52%;
@@ -74,7 +75,7 @@ background-color: #323232;
   top: 224px;
   left: 245px;
 }
-.Left{
+.Left {
   display: block;
   float: left;
   border: none;
@@ -94,21 +95,19 @@ background-color: #323232;
   width: 904px;
   color: #ffffff;
 }
-.head-slaider{
+.head-slaider {
   margin: 0px 0px 38px 0px;
   font-size: 60px;
-  font-family: "Roboto";
   text-transform: uppercase;
   text-align: center;
-  }
+}
 figcaption {
   text-align: left;
   font-size: 24px;
-  font-family: "Roboto";
   text-transform: uppercase;
   padding-left: 72px;
 }
-.Right{
+.Right {
   display: block;
   float: right;
   border: none;
@@ -122,20 +121,22 @@ figcaption {
   cursor: pointer;
 }
 .options {
-width: 1110px;
-margin: 0px auto;
-position: absolute;
-}
-.two {
   width: 1110px;
   margin: 0px auto;
-  margin-bottom: 95px;
-   }
+  position: absolute;
+}
+.two {
+  width: 1600px;
+  margin: 0px auto;
+  padding-bottom: 95px;
+  background-color: #e9f0fd;
+}
 .head-second {
   text-align: center;
   font-size: 48px;
   line-height: 72px;
   text-transform: uppercase;
+  padding-top: 94px;
   margin: 0px 0px 128px 0px;
 }
 .head-second::after {
@@ -146,163 +147,174 @@ position: absolute;
   background-color: #1abc9c;
   margin: 0px auto;
 }
-.main-menu{
-  margin: 0px auto;
+.main-menu {
+  margin: 0px 245px 0px 245px;
   padding: 0px;
-  }
+}
 .main-menu-item {
   float: left;
   list-style: none;
   line-height: 32px;
   text-transform: uppercase;
   position: relative;
-  
 }
 .main-menu-item:not(:nth-child(4n)) {
   margin-right: 30px;
- }
+}
 .card-img {
   float: left;
-      }
+}
 .main-menu-link {
   float: left;
   clear: both;
   display: block;
-  height: 40px;
   position: absolute;
   top: 282px;
-  width: 241px;
-  padding-left: 14px;
   margin: 0px;
   text-decoration: none;
-  color: #ffffff;
   background-color: #323232;
+}
+.name {
+  float: left;
+  width: 187px;
+  color: #ffffff;
   font-weight: 900;
+  padding: 4px 0px 4px 14px;
+  margin: 0px;
 }
 .price {
-  float: right;
+  float: left;
+  color: #ffffff;
   text-align: center;
   width: 54px;
-  height: 40px;
+  padding: 4px 0px 4px 0px;
   background-color: #8c8c8c;
+  font-weight: 900;
 }
 .main-menu-item:hover .main-menu-link {
   content: "";
   background-color: #1abc9c;
 }
 .main-menu-item:hover .price {
-    content: "";
-    background-color: #7fd9c7;
-  }
-  .main-button-like {
-    float: left;
-    border-width: 1px;
-    border-color: rgb(255, 255, 255);
-    border-style: solid;
-    width: 50px;
-    height: 50px;
-    padding: 0px;
-    opacity: 55%;
-    background-image: url(../img/Hart.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    /* background-color: #000000; */
-    cursor: pointer;
-  }
-  .main-button-reset {
-    float: left;
-    border-width: 1px;
-    border-color: rgb(255, 255, 255);
-    border-style: solid;  
-    opacity: 55%;
-    width: 50px;
-    height: 50px;
-    padding: 0px;
-    background-image: url(../img/Arrow.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    /* background-color: #000000; */
-    cursor: pointer;
-  }
-  .main-button-time {
-    float: left;
-    border-width: 1px;
-    border-color: rgb(255, 255, 255);
-    border-style: solid;
-    width: 50px;
-    height: 50px;
-    padding: 0px;
-    opacity: 55%;
-    background-image: url(../img/Watch.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    /* background-color: #000000; */
-    cursor: pointer;
-  }
-  .main-button-sell {
-    float: left;
-    clear: both;
-    text-align: center;
-    border-width: 1px;
-    border-color: rgb(255, 255, 255);
-    background-color: #323232;
-    border-style: solid;
-    width: 166px;
-    height: 50px;
-    padding: 0px;
-    background-image: url(../img/Sell.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    cursor: pointer;
-  }
-  .key-block-shadow {
-    /* display: none; */
-    width: 235px;
-    height: 261px;
-    background-color: #000000;
-    opacity: 55%;
-    margin-right: 0px;
-    border-width: 10px;
-    border-color: rgb(255, 255, 255);
-    border-style: solid;
-    position: relative;
-          }
-  .key-block {
-    position: absolute;
-    left: 45px;
-    top: 80px;
-        }
-  .main-button-like {
-    margin-right: 8px;
-    margin-bottom: 7px;
-   }
-  .main-button-reset {
-    margin-right: 8px;
-   }
-  .main-footer {
-    padding: 35px 0px 31px 0px;
-    background-color: #323232;
-  }
-  address {
-    font-family: "Open Sans",sans-serif;
-    font-size: 16px;
-    line-height: 28px;
-    font-style: normal;
-    text-align: center;
-    color: #ffffff;
-  }
-  .footer-span {
-    color: #1abc9c;
-  }
-  .visually-hidden:not(:focus):not(:active) {
-     position: absolute;
-     width: 1px;
-     height: 1px;
-     margin: -1px;
-     border: 0;
-     padding: 0;
-     white-space: nowrap;
-     clip-path: inset(100%);
-     clip: rect(0 0 0 0);
-     overflow: hidden;
-     }
+  content: "";
+  background-color: #7fd9c7;
+}
+.main-button-like,
+.main-button-reset,
+.main-button-time {
+  float: left;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  cursor: pointer;
+}
+.main-button-like {
+  background-image: url(../img/Hart.png);
+}
+.main-button-reset {
+  background-image: url(../img/Arrow.png);
+}
+.main-button-time {
+  background-image: url(../img/Watch.png);
+}
+.main-button-sell {
+  float: left;
+  clear: both;
+  text-align: center;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  background-color: #323232;
+  border-style: solid;
+  width: 166px;
+  height: 50px;
+  padding: 0px 18px 0px 18px;
+  cursor: pointer;
+}
+.word {
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 32px;
+  font-family: "Open Sans";
+  color: white;
+  margin: 0px;
+  background-image: url(../img/Sell.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.key-block-shadow {
+  display: none;
+  width: 235px;
+  height: 261px;
+  background-color: #000000;
+  opacity: 55%;
+  margin-right: 0px;
+  border-width: 10px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  position: relative;
+}
+.key-block {
+  display: none;
+  position: absolute;
+  left: 45px;
+  top: 80px;
+}
+.main-button-like:hover {
+  content: "";
+  background-color: #1abc9c;
+}
+.main-button-reset:hover {
+  content: "";
+  background-color: #1abc9c;
+}
+.main-button-time:hover {
+  content: "";
+  background-color: #1abc9c;
+}
+.main-menu-item:hover > .key-block {
+  display: block;
+}
+.main-menu-item:hover > .key-block-shadow {
+  display: block;
+}
+.main-button-like {
+  margin-right: 8px;
+  margin-bottom: 7px;
+}
+.main-button-reset {
+  margin-right: 8px;
+}
+.main-footer {
+  padding: 35px 0px 31px 0px;
+  background-color: #323232;
+}
+address {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.footer-span {
+  color: #1abc9c;
+}
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
