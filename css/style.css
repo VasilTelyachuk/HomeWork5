@@ -264,17 +264,10 @@ figcaption {
   left: 45px;
   top: 80px;
 }
-.main-button-like:hover {
+.main-button-like:hover,.main-button-reset:hover,.main-button-time:hover {
   content: "";
   background-color: #1abc9c;
-}
-.main-button-reset:hover {
-  content: "";
-  background-color: #1abc9c;
-}
-.main-button-time:hover {
-  content: "";
-  background-color: #1abc9c;
+  border-color: #1abc9c;
 }
 .main-menu-item:hover > .key-block {
   display: block;
