@@ -252,8 +252,7 @@ figcaption {
   display: none;
   width: 235px;
   height: 261px;
-  background-color: #000000;
-  opacity: 55%;
+  background-color: rgba(0,0,0,0.55);
   margin-right: 0px;
   border-width: 10px;
   border-color: rgb(255, 255, 255);
@@ -261,7 +260,6 @@ figcaption {
   position: relative;
 }
 .key-block {
-  display: none;
   position: absolute;
   left: 45px;
   top: 80px;
