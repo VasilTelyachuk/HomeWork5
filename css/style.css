@@ -83,7 +83,6 @@ body {
   height: 103px;
   background-color: #1abc9c;
   padding: 0px;
-  opacity: 65%;
   background-image: url(../img/L.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -119,6 +118,11 @@ figcaption {
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+}
+.Left:hover, .Right:hover {
+  content: "";
+  background-color: #1abc9c;
+  opacity: 65%;
 }
 .options {
   width: 1110px;
