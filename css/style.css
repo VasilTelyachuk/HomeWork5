@@ -60,14 +60,14 @@ body {
 }
 .one {
   position: relative;
-  }
+}
 .slaider-image {
   background-color: #000002;
- }
+}
 .slaider-img {
   float: left;
   opacity: 52%;
-  }
+}
 .slaider-option {
   width: 1110px;
   margin: 0px auto;
@@ -252,7 +252,7 @@ figcaption {
   display: none;
   width: 235px;
   height: 261px;
-  background-color: rgba(0,0,0,0.55);
+  background-color: rgba(0, 0, 0, 0.55);
   margin-right: 0px;
   border-width: 10px;
   border-color: rgb(255, 255, 255);
@@ -264,7 +264,9 @@ figcaption {
   left: 45px;
   top: 80px;
 }
-.main-button-like:hover,.main-button-reset:hover,.main-button-time:hover {
+.main-button-like:hover,
+.main-button-reset:hover,
+.main-button-time:hover {
   content: "";
   background-color: #1abc9c;
   border-color: #1abc9c;
