@@ -11,9 +11,9 @@ body {
   clear: both;
 }
 .wrapper {
-  width: 1600px;
+  /* width: 1600px; */
   margin: 0px auto;
-  /* background-color: #e9f0fd; */
+  width: 2744px;
 }
 .page-header {
   width: 1110px;
@@ -58,14 +58,17 @@ body {
 .nav-menu-link:hover {
   color: #1abc9c;
 }
-.one {
+.conteiner-slaider {
   position: relative;
+  width: 1600px;
+  margin: auto;
 }
 .slaider-image {
   background-color: #000002;
 }
 .slaider-img {
   float: left;
+  width: 100 %;
   opacity: 52%;
 }
 .slaider-option {
@@ -83,18 +86,21 @@ body {
   height: 103px;
   background-color: #1abc9c;
   padding: 0px;
-  background-image: url(../img/L.png);
+  /* background-image: url(../img/L.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
   cursor: pointer;
 }
 .head-conteiner {
   float: left;
   margin: 0px auto;
-  width: 904px;
+  /* width: 904px; */
   color: #ffffff;
+  position: absolute;
+  left: 174px;
 }
 .head-slaider {
+  display: inline-block;
   margin: 0px 0px 38px 0px;
   font-size: 60px;
   text-transform: uppercase;
@@ -104,8 +110,7 @@ figcaption {
   text-align: left;
   font-size: 24px;
   text-transform: uppercase;
-  padding-left: 72px;
-}
+  }
 .Right {
   display: block;
   float: right;
@@ -114,12 +119,13 @@ figcaption {
   height: 103px;
   background-color: #1abc9c;
   padding: 0px;
-  background-image: url(../img/R.png);
+  /* background-image: url(../img/R.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
   cursor: pointer;
 }
-.Left:hover, .Right:hover {
+.Left:hover,
+.Right:hover {
   content: "";
   background-color: #1abc9c;
   opacity: 65%;
@@ -129,13 +135,13 @@ figcaption {
   margin: 0px auto;
   position: absolute;
 }
-.two {
-  width: 1600px;
+.conteiner-shop {
+  /* width: 1600px; */
   margin: 0px auto;
   padding-bottom: 95px;
   background-color: #e9f0fd;
 }
-.head-second {
+.title-shop {
   text-align: center;
   font-size: 48px;
   line-height: 72px;
@@ -143,7 +149,7 @@ figcaption {
   padding-top: 94px;
   margin: 0px 0px 128px 0px;
 }
-.head-second::after {
+.title-shop::after {
   display: block;
   content: "";
   width: 164px;
@@ -151,24 +157,25 @@ figcaption {
   background-color: #1abc9c;
   margin: 0px auto;
 }
-.main-menu {
-  margin: 0px 245px 0px 245px;
+ul {
+  display: inline-block;
+  margin: 0px 817px 0px 817px;
   padding: 0px;
 }
-.main-menu-item {
+.menu-item {
   float: left;
   list-style: none;
   line-height: 32px;
   text-transform: uppercase;
   position: relative;
 }
-.main-menu-item:not(:nth-child(4n)) {
+.menu-item:not(:nth-child(4n)) {
   margin-right: 30px;
 }
 .card-img {
   float: left;
 }
-.main-menu-link {
+.menu-link {
   float: left;
   clear: both;
   display: block;
@@ -195,11 +202,11 @@ figcaption {
   background-color: #8c8c8c;
   font-weight: 900;
 }
-.main-menu-item:hover .main-menu-link {
+.menu-item:hover .menu-link {
   content: "";
   background-color: #1abc9c;
 }
-.main-menu-item:hover .price {
+.menu-item:hover .price {
   content: "";
   background-color: #7fd9c7;
 }
@@ -270,7 +277,8 @@ figcaption {
 }
 .main-button-like:hover,
 .main-button-reset:hover,
-.main-button-time:hover {
+.main-button-time:hover,
+.main-button-sell:hover {
   content: "";
   background-color: #1abc9c;
   border-color: #1abc9c;
@@ -292,7 +300,8 @@ figcaption {
   padding: 35px 0px 31px 0px;
   background-color: #323232;
 }
-address {
+.inf-span {
+  display: block;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 28px;
